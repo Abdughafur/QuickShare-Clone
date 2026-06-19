@@ -1,0 +1,5 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="presentation" class="icon--svg expansion-panel__item-icon" aria-hidden="true" width="100"  height="100" ><defs><symbol fill="currentColor" viewBox="-1 -1 22 18" id="exp-latest-features">
+      <path d="M15.867 8.925V6.942h3.966v1.983h-3.966Zm1.19 6.942-3.174-2.38 1.19-1.587 3.174 2.38-1.19 1.587Zm-1.984-11.9-1.19-1.587L17.057 0l1.19 1.587-3.174 2.38ZM2.975 14.875v-3.967h-.992a1.91 1.91 0 0 1-1.4-.582A1.91 1.91 0 0 1 0 8.925V6.942c0-.546.194-1.013.583-1.401a1.91 1.91 0 0 1 1.4-.583H5.95l4.958-2.975v11.9L5.95 10.908h-.992v3.967H2.975Zm5.95-4.512v-4.86l-2.43 1.439H1.983v1.983h4.512l2.43 1.438Zm2.975.892V4.611c.446.397.806.88 1.078 1.45.273.57.41 1.195.41 1.872 0 .678-.137 1.302-.41 1.872a4.529 4.529 0 0 1-1.078 1.45Z" fill="currentColor"></path>
+    </symbol></defs>
+                          <use href="#exp-latest-features"></use>
+                        </svg>

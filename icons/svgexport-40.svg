@@ -1,0 +1,5 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="presentation" class="icon--svg expansion-panel__item-icon" aria-hidden="true" width="100"  height="100" ><defs><symbol fill="currentColor" viewBox="-2 -2 24 24" id="exp-google-messages">
+      <path d="M0 19.833V1.983C0 1.438.194.971.583.583A1.91 1.91 0 0 1 1.983 0H17.85a1.91 1.91 0 0 1 1.4.583c.39.388.583.855.583 1.4v11.9a1.91 1.91 0 0 1-.582 1.401 1.91 1.91 0 0 1-1.401.583H3.967L0 19.833Zm3.124-5.95H17.85v-11.9H1.983V15l1.14-1.116Z" fill="currentColor"></path>
+    </symbol></defs>
+                          <use href="#exp-google-messages"></use>
+                        </svg>

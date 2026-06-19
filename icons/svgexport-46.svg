@@ -1,0 +1,5 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="presentation" class="icon--svg expansion-panel__item-icon" aria-hidden="true" width="29"  height="23" ><defs><symbol fill="currentColor" viewBox="0 0 29 23" id="exp-switch-from-iphone">
+    <path d="m8.5 22.667-1.983-2.02L10.165 17H0v-2.833h10.165l-3.648-3.648L8.5 8.5l7.083 7.083L8.5 22.667Zm11.333-8.5L12.75 7.083 19.833 0l1.984 2.019-3.648 3.648h10.164V8.5H18.17l3.648 3.648-1.984 2.019Z" fill="currentColor"></path>
+    </symbol></defs>
+                          <use href="#exp-switch-from-iphone"></use>
+                        </svg>
