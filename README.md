@@ -61,6 +61,6 @@ Built using HTML, CSS, and Vanilla JavaScript.
 ## 🚀 Run Locally
 
 ```bash
-git clone https://github.com/your-username/quick-share-clone.git
-cd quick-share-clone
+git clone https://github.com/Abdughafur/QuickShare-Clone.git
+cd QuickShare-Clone
 open index.html
