@@ -1,4 +1,3 @@
-/* Пайваст кардани шрифтҳои аслии Google ба монанди Google Sans */
 @import url("https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap");
 
 :root {
@@ -16,10 +15,20 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Product Sans", "Google Sans", Roboto, Arial, sans-serif;
+}
+
+img,
+picture,
+video,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }
 
 body {
-  font-family: "Product Sans", "Google Sans", Roboto, Arial, sans-serif;
   background-color: #ffffff;
   color: var(--google-gray-900);
   line-height: 1.5;
@@ -32,7 +41,6 @@ body {
   padding: 0 24px;
 }
 
-/* ----- HEADER & NAVIGATION ----- */
 header {
   border-bottom: 1px solid var(--border-color);
   position: sticky;
@@ -96,7 +104,6 @@ header {
   align-items: center;
 }
 
-/* ----- BUTTONS ----- */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -122,6 +129,11 @@ header {
   background-color: #3c4043;
 }
 
+.btn-black svg {
+  fill: #91b90b;
+  margin-left: 5px;
+}
+
 .btn-shop {
   background-color: var(--google-gray-900);
   color: #ffffff;
@@ -129,19 +141,22 @@ header {
 }
 
 .btn-shop::after {
-  content: "→";
+  content: "\2192";
   color: var(--google-green-500);
   font-weight: bold;
 }
 
-/* ----- HERO SECTION ----- */
 .hero-section {
   text-align: center;
   padding: 60px 0;
 }
 
 .hero-section p {
+  font-size: 1.15rem;
   font-weight: 420;
+  color: var(--google-gray-700);
+  max-width: 680px;
+  margin: 0 auto 32px auto;
 }
 
 .hero-section p a {
@@ -149,15 +164,9 @@ header {
   font-weight: 500;
 }
 
-.btn-black svg {
-  fill: #91b90b;
-  margin-left: 5px;
-}
-
 .hero-badge {
   font-size: 0.85rem;
   font-weight: 700;
-  background: none;
   letter-spacing: 0.5px;
   margin-bottom: 16px;
   display: flex;
@@ -171,7 +180,6 @@ header {
   color: #3c4043;
   background: #dceafb;
   width: 220px;
-  height: 100%;
   border-radius: 7px;
   padding: 5px;
 }
@@ -189,22 +197,16 @@ header {
   margin-bottom: 20px;
 }
 
-.hero-section p {
-  font-size: 1.15rem;
-  color: var(--google-gray-700);
-  max-width: 680px;
-  margin: 0 auto 32px auto;
-}
-
 .hero-visual {
   background-color: #d7effe;
   border-radius: 28px;
-  height: 480px;
+  min-height: clamp(240px, 40vh, 480px);
   margin-top: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 16px;
 }
 
 .placeholder-text {
@@ -213,7 +215,6 @@ header {
   font-weight: 500;
 }
 
-/* ----- SECTION BASICS ----- */
 .section-title-center {
   text-align: center;
   padding: 80px 0 40px;
@@ -233,17 +234,22 @@ header {
   margin: 0 auto;
 }
 
-/* ----- GRAPHIC NETWORKS ----- */
 .network-box {
-  height: 320px;
+  min-height: clamp(160px, 50vh, 600px);
   border-radius: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 60px;
+  overflow: hidden;
 }
 
-/* ----- GRID SPLIT FEATURES ----- */
+.network-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .feature-row {
   display: flex;
   align-items: center;
@@ -251,10 +257,7 @@ header {
   padding: 60px 0;
 }
 
-#featRow {
-  display: flex;
-  align-items: center;
-  gap: 64px;
+.feature-row.has-bg {
   background-color: #f8f9fa;
   border-radius: 15px;
   width: 100%;
@@ -281,6 +284,10 @@ header {
   line-height: 1.6;
 }
 
+.feature-col-text li {
+  color: var(--google-gray-700);
+}
+
 .feature-col-visual {
   flex: 1.2;
   height: 420px;
@@ -293,14 +300,15 @@ header {
 .bg-gray {
   background-color: var(--google-gray-100);
 }
+
 .bg-blue {
   background-color: var(--google-blue-100);
 }
+
 .bg-green {
   background-color: #f0f7e6;
 }
 
-/* ----- HOW TO START (STEPS) ----- */
 .steps-container {
   padding: 80px 0;
   text-align: center;
@@ -344,7 +352,6 @@ header {
   line-height: 1.5;
 }
 
-/* ----- ACCORDION (FAQ) ----- */
 .faq-block {
   max-width: 850px;
   margin: 0 auto;
@@ -370,14 +377,54 @@ summary::-webkit-details-marker {
   display: none;
 }
 
+summary .icon--ico-arrow-round,
+summary .icon {
+  display: none;
+}
+
+summary {
+  position: relative;
+  padding-right: 56px;
+}
+
 summary::after {
-  content: "+";
-  font-size: 1.5rem;
-  color: var(--google-gray-900);
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #f1f3f4;
+  box-shadow: 0 1px 2px rgba(60, 64, 67, 0.08);
+  transition:
+    background 0.18s ease,
+    box-shadow 0.18s ease;
+  display: block;
+}
+
+summary::before {
+  content: "";
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  transform: translateY(-50%) rotate(0deg);
+  width: 16px;
+  height: 16px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 9l6 6 6-6' stroke='%23202124' stroke-width='1.8' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.22s cubic-bezier(0.2, 0.9, 0.2, 1);
 }
 
 details[open] summary::after {
-  content: "−";
+  background: #e8f0fe;
+  box-shadow: 0 2px 6px rgba(66, 133, 244, 0.12);
+}
+
+details[open] summary::before {
+  transform: translateY(-50%) rotate(180deg);
 }
 
 .faq-content {
@@ -385,9 +432,22 @@ details[open] summary::after {
   color: var(--google-gray-700);
   font-size: 1.05rem;
   line-height: 1.6;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition:
+    max-height 0.32s ease,
+    opacity 0.22s ease,
+    padding 0.22s ease;
+  will-change: max-height, opacity;
 }
 
-/* ----- BOTTOM BANNER PROMO ----- */
+details[open] .faq-content {
+  max-height: 800px;
+  opacity: 1;
+  padding-top: 16px;
+}
+
 .promo-banner {
   background-color: var(--google-green-100);
   border-radius: 32px;
@@ -402,6 +462,16 @@ details[open] summary::after {
   flex: 1;
   height: 320px;
   background: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo-visual-gradient {
+  flex: 1;
+  height: 320px;
+  background: linear-gradient(#ea4335, #fbbc05, #34a853, #4285f4);
   border-radius: 24px;
   display: flex;
   align-items: center;
@@ -436,7 +506,6 @@ details[open] summary::after {
   margin-bottom: 28px;
 }
 
-/* ----- FOOTER ----- */
 footer {
   background-color: var(--google-gray-100);
   padding: 64px 48px 32px;
@@ -454,7 +523,7 @@ footer {
 
 .footer-col h5 {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 20px;
   color: var(--google-gray-900);
 }
@@ -479,29 +548,25 @@ footer {
 }
 
 .footer-bottom {
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+  margin: 0 0;
   border-top: 1px solid var(--border-color);
   padding-top: 24px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: end;
   color: var(--google-gray-700);
-  font-size: 0.85rem;
 }
 
-.footer-links-left a {
-  color: var(--google-gray-700);
-  text-decoration: none;
-  margin-right: 24px;
+.footer-bottom img {
+  height: 100%;
 }
 
-.footer-links-left a:hover {
-  color: var(--google-gray-900);
-}
-
-/* ----- ADAPTIVITY (RESPONSIVE) ----- */
 @media (max-width: 968px) {
+  .nav-links {
+    display: none;
+  }
   .feature-row,
   .feature-row.reverse,
   .promo-banner {
@@ -509,27 +574,32 @@ footer {
     text-align: center;
     gap: 32px;
   }
+  .feature-col-visual,
+  .promo-visual {
+    width: 100%;
+  }
   .steps-grid {
     grid-template-columns: 1fr;
   }
   .hero-section h1 {
     font-size: 2.6rem;
   }
+  .network-box {
+    height: 200px;
+    width: 100%;
+    padding: 5px;
+  }
+
   .footer-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
-  .nav-links {
-    display: none;
-  }
   .footer-grid {
     grid-template-columns: 1fr;
   }
-  .footer-bottom {
-    flex-direction: column;
-    gap: 16px;
-    text-align: center;
-  }
 }
+
+
+/* Cloned by Abdughafur Khujzoda */
