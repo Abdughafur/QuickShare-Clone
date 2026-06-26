@@ -1,5 +1,0 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="presentation" class="icon--svg expansion-panel__item-icon" aria-hidden="true" width="24"  height="24" ><defs><symbol fill="currentColor" viewBox="0 0 24 24" id="trackable-devices">
-    <path d="M12 22c-1.95 0-3.604-.68-4.963-2.038C5.68 18.604 5 16.95 5 15c0-1.567.458-2.967 1.375-4.2S8.5 8.733 10 8.3V3c0-.283.096-.52.287-.712A.968.968 0 0 1 11 2h2c.283 0 .52.096.713.288.191.191.287.429.287.712v5.3a6.778 6.778 0 0 1 3.613 2.5C18.538 12.033 19 13.433 19 15c0 1.95-.683 3.604-2.05 4.962C15.583 21.322 13.933 22 12 22Zm0-2c1.383 0 2.563-.483 3.537-1.45C16.512 17.583 17 16.4 17 15c0-1.383-.488-2.563-1.463-3.537C14.563 10.488 13.383 10 12 10c-1.4 0-2.583.488-3.55 1.463C7.483 12.438 7 13.617 7 15c0 1.4.483 2.583 1.45 3.55C9.417 19.517 10.6 20 12 20Z" fill="currentColor"></path>
-    </symbol></defs>
-                          <use href="#trackable-devices"></use>
-                        </svg>

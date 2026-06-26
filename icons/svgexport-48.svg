@@ -1,3 +1,0 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="android-cta__icon android-cta__icon--external" width="48"  height="48" ><defs><symbol id="ico-cta-external" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path class="ast0" d="M30.9 18.5l-1.4-1.4 9.6-9.6h-8.6v-2h12v12h-2V8.9l-9.6 9.6zm-24 24l-1.4-1.4 9.6-9.6H6.5v-2h12v12h-2v-8.6l-9.6 9.6z" fill="currentColor"></path></symbol></defs>
-      <use href="#ico-cta-external"></use>
-    </svg>

@@ -1,5 +1,0 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="icon--svg android-language-selector__icon" aria-hidden="true" width="11"  height="7" ><defs><symbol id="ico-arrow-round" viewBox="0 0 11 7">
-      <path d="M9.576 1.333L5.333 5.576 1.091 1.333" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
-    </symbol></defs>
-    <use href="#ico-arrow-round"></use>
-  </svg>

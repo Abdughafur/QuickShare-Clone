@@ -1,8 +1,0 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="icon--svg survey-default__alert-icon" aria-hidden="true" width="29"  height="29" ><defs><symbol viewBox="0 0 29 29" id="ico-exclamation">
-      <g transform="translate(1 1)" stroke="currentColor" fill="none" fill-rule="evenodd">
-        <path fill="currentColor" d="M12 15h3V6h-3zm0 6h3v-3h-3z"></path>
-        <circle stroke="currentColor" stroke-width="2" cx="13.5" cy="13.5" r="13.5"></circle>
-      </g>
-    </symbol></defs>
-        <use xlink:href="#ico-exclamation"></use>
-      </svg>

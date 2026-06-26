@@ -1,5 +1,0 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="presentation" class="icon--svg expansion-panel__item-icon" aria-hidden="true" width="26"  height="32" ><defs><symbol fill="currentColor" viewBox="0 0 26 32" id="exp-tablets">
-    <path d="M2.833 31.167c-.779 0-1.446-.278-2-.833a2.728 2.728 0 0 1-.833-2v-25.5c0-.78.277-1.447.832-2.002A2.728 2.728 0 0 1 2.833 0h19.834c.779 0 1.446.277 2 .832.556.555.833 1.222.833 2.001v25.5c0 .78-.277 1.447-.832 2.001a2.729 2.729 0 0 1-2.001.833H2.833Zm0-7.084v4.25h19.834v-4.25H2.833Zm7.084 2.834h5.666V25.5H9.917v1.417ZM2.833 21.25h19.834V7.083H2.833V21.25Zm0-17h19.834V2.833H2.833V4.25Z" fill="currentColor"></path>
-    </symbol></defs>
-                          <use href="#exp-tablets"></use>
-                        </svg>

@@ -1,5 +1,0 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" aria-label="download icon" class="android-cta__icon" width="24"  height="24" ><defs><symbol viewBox="0 0 24 24" id="download-icon">
-      <mask style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24"><path d="M0 0h24v24H0z"></path></mask><g><path d="M6.308 19.5c-.505 0-.933-.175-1.283-.525a1.745 1.745 0 0 1-.525-1.283V15H6v2.692c0 .077.032.148.096.212a.294.294 0 0 0 .212.096h11.384a.294.294 0 0 0 .212-.096.294.294 0 0 0 .096-.212V15h1.5v2.692c0 .505-.175.933-.525 1.283-.35.35-.778.525-1.283.525H6.308ZM12 15.615l-4.27-4.269 1.055-1.084 2.465 2.465v-8.4h1.5v8.4l2.465-2.465 1.054 1.084L12 15.616Z"></path></g>
-    </symbol></defs>
-    <use href="#download-icon"></use>
-  </svg>

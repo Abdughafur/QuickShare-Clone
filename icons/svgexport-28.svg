@@ -1,5 +1,0 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="presentation" class="icon--svg expansion-panel__header-icon" aria-hidden="true" width="12"  height="7" ><defs><symbol viewBox="0 0 12 7" id="expand-more-black">
-      <path d="M6 6.708.346 1.054 1.4 0 6 4.6 10.6 0l1.054 1.054L6 6.708Z"></path>
-    </symbol></defs>
-                <use href="#expand-more-black"></use>
-              </svg>
